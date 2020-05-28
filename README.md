@@ -72,6 +72,7 @@ TypeScript
 
 * [typescript.com](http://typescript.com/)
 * [TS in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+* [TypeScript Do's and Don'ts](https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html)
 * [Understanding TypeScript - 2020 Edition](https://www.udemy.com/course/understanding-typescript/) - $60 USD
   * Udemy has business licenses available (a per user cost per year, cost per user decreases with 20+ engineers)
 
