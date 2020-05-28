@@ -1,24 +1,47 @@
 {
-  "private": true,
-  "name": "@vantageintl/demo-typescript",
-  "version": "1.0.0",
-  "description": "Vantage TypeScript Demo",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vantage-Intl/demo-typescript.git"
-  },
-  "keywords": [
-    "demo",
-    "typescript"
-  ],
-  "author": "Calvin Freitas",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Vantage-Intl/demo-typescript/issues"
-  },
-  "homepage": "https://github.com/Vantage-Intl/demo-typescript#readme"
+    "private": true,
+    "name": "@vantageintl/demo-typescript",
+    "version": "1.0.0",
+    "description": "Vantage TypeScript Demo",
+    "homepage": "https://github.com/Vantage-Intl/demo-typescript#readme",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint --fix ./src",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Vantage-Intl/demo-typescript.git"
+    },
+    "keywords": [
+        "demo",
+        "typescript"
+    ],
+    "author": "Calvin Freitas",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Vantage-Intl/demo-typescript/issues"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^3.0.2",
+        "@typescript-eslint/parser": "^3.0.2",
+        "eslint": "^7.1.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.3",
+        "husky": "^4.2.5",
+        "lint-staged": "^10.2.6",
+        "prettier": "^2.0.5",
+        "typescript": "^3.9.3"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,ts,tsx}": [
+            "eslint --fix"
+        ]
+    }
 }
