@@ -17,7 +17,7 @@ class Pack {
         this._cards = cards;
     }
 
-    id(id: string) {
+    id(id?: string): string {
         if (id) {
             this._id = id;
         }
@@ -25,17 +25,15 @@ class Pack {
         return this._id;
     }
 
-    name(name: string) {
+    name(name?: string): string {
         if (name) {
             this._name = name;
-
-            return this;
         }
 
         return this._name;
     }
 
-    cards(cards: CardData[]) {
+    cards(cards?: CardData[]): CardData[] {
         if (cards) {
             this._cards = cards;
         }

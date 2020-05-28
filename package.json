@@ -6,7 +6,9 @@
     "homepage": "https://github.com/Vantage-Intl/demo-typescript#readme",
     "main": "index.js",
     "scripts": {
+        "build": "tsc",
         "lint": "eslint --fix ./src",
+        "demo": "node -r esm ./build/src/index.js",
         "test": "jest"
     },
     "repository": {
