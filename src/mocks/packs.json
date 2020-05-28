@@ -1,0 +1,97 @@
+{
+    "data": {
+        "a": {
+            "id": "a",
+            "name": "Pack A",
+            "cards": [
+                {
+                    "id": 1,
+                    "clue": "Hello",
+                    "answer": "Buna"
+                },
+                {
+                    "id": 2,
+                    "clue": "goodbye",
+                    "answer": "la revedere"
+                },
+                {
+                    "id": 3,
+                    "clue": "two-way door",
+                    "answer": "usa cu doua sensuri"
+                },
+                {
+                    "id": 4,
+                    "clue": "mechanism",
+                    "answer": "mecanism"
+                },
+                {
+                    "id": 5,
+                    "clue": "it's day one",
+                    "answer": "este prima zi"
+                }
+            ]
+        },
+        "b": {
+            "id": "b",
+            "name": "Pack B",
+            "cards": [
+                {
+                    "id": 1,
+                    "clue": "Hello",
+                    "answer": "Buna"
+                },
+                {
+                    "id": 2,
+                    "clue": "goodbye",
+                    "answer": "la revedere"
+                },
+                {
+                    "id": 3,
+                    "clue": "two-way door",
+                    "answer": "usa cu doua sensuri"
+                },
+                {
+                    "id": 4,
+                    "clue": "mechanism",
+                    "answer": "mecanism"
+                },
+                {
+                    "id": 5,
+                    "clue": "it's day one",
+                    "answer": "este prima zi"
+                }
+            ]
+        },
+        "c": {
+            "id": "c",
+            "name": "Pack C",
+            "cards": [
+                {
+                    "id": 1,
+                    "clue": "Hello",
+                    "answer": "Buna"
+                },
+                {
+                    "id": 2,
+                    "clue": "goodbye",
+                    "answer": "la revedere"
+                },
+                {
+                    "id": 3,
+                    "clue": "two-way door",
+                    "answer": "usa cu doua sensuri"
+                },
+                {
+                    "id": 4,
+                    "clue": "mechanism",
+                    "answer": "mecanism"
+                },
+                {
+                    "id": 5,
+                    "clue": "it's day one",
+                    "answer": "este prima zi"
+                }
+            ]
+        }
+    }
+}
