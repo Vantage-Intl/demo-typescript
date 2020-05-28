@@ -17,15 +17,15 @@ class Card {
         this._answer = answer;
     }
 
-    get id() {
+    id(): number {
         return this._id;
     }
 
-    get clue() {
+    clue(): string {
         return this._clue;
     }
 
-    get answer() {
+    answer(): string {
         return this._answer;
     }
 }
